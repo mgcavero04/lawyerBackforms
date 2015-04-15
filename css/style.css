@@ -1,0 +1,115 @@
+@charset "utf-8";
+      header.navbar-inverse {border-radius: 0;}
+      footer.navbar-default {border-radius: 0; margin-bottom: 0;}
+	  footer{
+		  background-color:#e6e6e6;
+		  margin-top:30px;
+		  color:#1f3b6b;
+		  bottom: 0;
+    height: 60px;
+    position: relative;
+    width: 100%;
+	  }
+      .shiftable-collection-item {padding: 10px; text-align: center; height: 160px; border: 1px solid #999; margin-right: 10px;}
+      .shiftable-collection-item:hover, .shiftable-collection-item.selected {background-color: #ddd;}
+      .shiftable-collection img {max-width: 100%; max-height: 100px;}
+      .bs-sidebar .nav > .active > ul {display: block; margin-bottom: 4px;}
+      .bs-sidebar .nav > li > a {padding: 2px 4px;}
+      .bs-sidebar .nav > li.active {background-color: #428bca; border-radius: 0;}
+      .bs-sidebar .nav > li.active > a {color: white;}
+      .bs-sidebar .nav > li.active > a:hover {background-color: #428bca;}
+      .bs-sidebar .nav > li.active, .bs-sidebar .nav > li.active > a:hover {background-color: #428bca;}
+	  .form-group{
+		  display:block;
+	  }
+	  #title{
+		  
+		  text-align:center;
+		  padding-bottom:40px;
+	  }
+	  .navbar-inverse
+	  {
+		  background-color:#e6e6e6;
+		  border-bottom-color:#1f3b6b;
+		  border-bottom-width:3px;
+		  border-bottom-width:100%;
+	  }
+	  .navbar-toggle{
+		  background-color:#1f3b6b;
+	  }
+	  .navbar-brand{
+		  background-image:url(../images/getLawyerLogo.png);
+		  background-repeat:no-repeat;
+		  background-position:30px 5px;
+		  background-size: 150px;
+  			width: 200px;
+			height:50px;
+	  }
+	  .navbar{
+		  margin-bottom:0px;
+	  }
+	  
+.col-sm-4{
+	padding-right:50px;
+  padding-left:50px;
+}
+#formBack{
+	background-color:#DEDFE0;
+	box-shadow: 3px 3px 5px #666462;
+	color:#1f3b6b;
+	
+}
+#formBack2{
+	margin-top:30px;
+	background-color:#DEDFE0;
+	box-shadow: 3px 3px 5px #666462;
+	color:#1f3b6b;
+}
+body{
+	background-color:#526681;
+	color:#DFE4EA;
+}
+h3{
+	text-align:center;
+}
+#left{
+  margin: 0 0 60px;
+  }
+  #right{
+  margin: 0 0 60px;
+  }
+  .btn{
+	  background-color:#F7931E;
+	  color:#ffffff;
+	  float:right;
+  }
+  span{
+	  color:#F7931E;
+	  font-size:24px;
+	  font-weight:bold;
+  }
+  .congratulations{
+	  background-color:#ffffff;
+	  color:#1f3b6b;
+	  padding:15px 200px;
+	  border-bottom:3px solid #1f3b6b;
+	  
+   
+  }
+.container-fluid{
+	border-top-color: #1f3b6b;
+  border-top-width: 3px;
+}
+  @media(max-width:767px){
+	  #formBack{
+	background-color:#DEDFE0;
+	box-shadow: 3px 3px 5px #666462;
+	color:#1f3b6b;
+	padding:20px 30px;
+	
+}
+	  }
+@media(min-width:768px){}
+@media(min-width:992px){}
+@media(min-width:1200px){}
+
